@@ -1,0 +1,29 @@
+body{
+    font-family: monospace;
+}
+
+header{
+    font-size: 30;
+    background-image: url("img/header_bg.png");
+    display: flex; 
+    justify-content:center; 
+    align-items: center 
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;   /* Height of the footer */
+    background: rgb(37, 37, 37);
+ }
+
+ .footer_item, #header_title{
+    display: flex; 
+    justify-content: center; 
+    align-items: center
+ }
+
+ footer a{
+    color: gray
+ }
