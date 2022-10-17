@@ -3,14 +3,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chats atención al cliente</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">   
 </head>
 <body>
-    <section class="flex h-screen overflow-hidden">
+
+    <div class="head">
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="chats.html">Chats</a>
+        </nav>
+    </div>
+    <section class="flex h-screen overflow-hidden chat">
         <div class="bg-white xl:w-3/12 lg:w-4/12 w-full p-6">
             <h3 class="text-2xl mb-8">Chats</h3>
             <div class="flex overflow-auto w-full mb-8">
@@ -150,7 +162,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-100 xl:w-9/12 lg:w-8/12 hidden lg:block">
+        <div class="bg-gray-100 xl:w-9/12 lg:w-8/12 hidden lg:block" style="margin-top: 4%;">
             <div class="py-6 px-20 border-b">
                 <div class="flex">
                     <div class="flex flex-grow">
@@ -215,7 +227,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex py-6 px-20 border-t">
+            <div class="flex py-6 px-20 border-t enviar">
                 <div class="w-4/5">
                     <input type="text" class="rounded-sm px-4 py-2 focus:outline-none bg-gray-100 w-full" placeholder="Escribe tu mensaje..."> 
                 </div>
