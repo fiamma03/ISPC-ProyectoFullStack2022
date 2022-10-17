@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="bg-secondary">
 
         <!-- Bootstrap JS -->
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
@@ -27,7 +27,7 @@
 
         </header>
 
-        <nav class="navbar navbar-expand-md text-bg-light">
+        <nav class="navbar navbar-expand-md bg-light">
           <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader" aria-controls="navbarTogglerHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
                     Menu
                   </a>
                   <ul class="dropdown-menu navbar-nav-scroll">
-                    <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                    <li><a class="dropdown-item"  href="index.html">Inicio</a></li>
                     <li><a class="dropdown-item" href="servicios.html">Servicios</a></li>
                     <li><a class="dropdown-item" href="sobre_nosotros.html">Sobre Nosotros</a></li>
                     <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
@@ -63,7 +63,48 @@
 
         <!---Contenido de la pagina--->
 
-
+        <section>
+          <form>
+            <div class="container-fluid caja_login al_center">
+              <div class="row">
+                <div class="col  title">
+                  <strong>Login</strong>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="text" id="Usuario" class="form-control" aria-describedby="tagUser">
+                  <div id="tagUser" class="form-text">
+                    <strong>Nombre de Usuario</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="password" id="Contraseña" class="form-control" aria-describedby="tagPassword">
+                  <div id="tagPassword" class="form-text">
+                    <strong>Contraseña</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md">
+                  <button type="submit" class="btn btn-primary">Ingresar</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  ¿Es usted vendedor?
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <a class="text-secondary" href="ventas/iniciosesion.html">Area de Vendedores</button>                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
 
 
 
