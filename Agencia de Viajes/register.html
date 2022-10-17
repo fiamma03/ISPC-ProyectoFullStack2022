@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="bg-secondary">
 
         <!-- Bootstrap JS -->
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
@@ -63,7 +63,78 @@
 
         <!---Contenido de la pagina--->
 
-
+        <section>
+          <form>
+            <div class="container-fluid caja_register al_center">
+              <div class="row">
+                <div class="col  title">
+                  <strong>Register</strong>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="text" id="Nombre" class="form-control" aria-describedby="tagNombre">
+                  <div id="tagNombre" class="form-text">
+                    <strong>Nombre</strong>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <input type="text" id="Apellido" class="form-control" aria-describedby="tagApellido">
+                  <div id="tagApellido" class="form-text">
+                    <strong>Apellido</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="text" id="Usuario" class="form-control" aria-describedby="tagUser">
+                  <div id="tagUser" class="form-text">
+                    <strong>Usuario</strong>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <input type="password" id="Contraseña" class="form-control" aria-describedby="tagPassword">
+                  <div id="tagPassword" class="form-text">
+                    <strong>Contraseña</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="text" id="DNI" class="form-control" aria-describedby="tagDNI">
+                  <div id="tagDNI" class="form-text">
+                    <strong>DNI</strong>
+                  </div>
+                </div>
+                <div class="col-sm">
+                  <input type="text" id="Teléfono" class="form-control" aria-describedby="tagTel">
+                  <div id="tagTel" class="form-text">
+                    <strong>Telefono</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="email" id="Correo" class="form-control" aria-describedby="tagMail">
+                  <div id="tagMail" class="form-text">
+                    <strong>Correo Electrónico</strong>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <input type="file" id="Foto" class="form-control-file" aria-describedby="tagFoto" accept=".jpg, .png, .bmp, .jpeg">
+                  <div id="tagFoto" class="form-text">
+                    <strong>Fotografía</strong>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md">
+                  <button type="submit" class="btn btn-primary">Registrarse</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
 
 
 
