@@ -1,0 +1,30 @@
+section {
+    border: 50px #ffffff;
+    border-style:double;
+    border-radius: 20px; 
+	width:400px; 
+	height: 300px; 
+	background-color: #Cbc3e9; 
+    margin: auto;
+	padding: 10px 20px 30px; 
+	float: center; 
+  }
+h1
+{
+    font: 500;
+    font-family: 'Lucida Sans';
+    color:black;
+}
+form
+{
+font-family: 'Lucida Sans';
+}
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+body{
+    background-color: #b19cd9;
+}
