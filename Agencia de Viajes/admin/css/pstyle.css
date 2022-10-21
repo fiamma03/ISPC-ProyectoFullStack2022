@@ -1,0 +1,37 @@
+.navbar {
+    font-family: 'Lucida Sans';
+    background-color: #cbc3e9;
+    display: flex;
+}
+body{
+    background-color: #b19cd9;
+}
+
+.navbar ae{
+    display: inline-block;
+    color: #000;
+    text-decoration:solid;
+    padding-left: 10px;
+}
+
+.navbar ac{
+    display: inline-block;
+    color: #000;
+    text-decoration:solid;
+    padding-left: 10px;
+}
+.navbar ad{
+    display: inline-block;
+    color: #000;
+    text-decoration:solid;
+    padding-left: 1580px;
+}
+
+.navbar button{
+    padding: 10px;
+}
+
+.navbar form{
+    display: flex;
+    padding-left: 1510px;
+}
