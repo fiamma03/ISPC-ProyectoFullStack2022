@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     </head>
-    <body class="bg-secondary">
+    <body class="fondo">
 
         <!-- Bootstrap JS -->
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
@@ -65,44 +65,46 @@
 
         <section>
           <form>
-            <div class="container-fluid caja_login al_center">
-              <div class="row">
-                <div class="col  title">
-                  <strong>Login</strong>
+            
+            <div class="container-fluid caja">
+
+              <div class="container-fluid caja_login al_center">
+                <div class="row">
+                  <div class="col  title">
+                    <strong>Login</strong>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-sm">
-                  <input type="text" id="Usuario" class="form-control" aria-describedby="tagUser">
-                  <div id="tagUser" class="form-text">
-                    <strong>Nombre de Usuario</strong>
+                <div class="row">
+                  <div class="col-sm">
+                    <label for="Usuario" class="form-label"><strong>Usuario</strong></label>
+                    <input type="text" id="Usuario" class="form-control" aria-describedby="tagUser" placeholder="Clone_Tropper_501st">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <label for="Contraseña" class="form-label"><strong>Contraseña</strong></label>
+                    <input type="password" id="Contraseña" class="form-control" aria-describedby="tagPassword" placeholder="WristRockets">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    ¿Es usted vendedor?
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm">
+                    <a class="text-secondary" href="ventas/iniciosesion.html">Area de Vendedores</button>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm">
-                  <input type="password" id="Contraseña" class="form-control" aria-describedby="tagPassword">
-                  <div id="tagPassword" class="form-text">
-                    <strong>Contraseña</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md">
-                  <button type="submit" class="btn btn-primary">Ingresar</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm">
-                  ¿Es usted vendedor?
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm">
-                  <a class="text-secondary" href="ventas/iniciosesion.html">Area de Vendedores</button>
-                </div>
-              </div>
+
             </div>
+
           </form>
         </section>
 
