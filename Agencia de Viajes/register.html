@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     </head>
-    <body class="bg-secondary">
+    <body class="fondo">
 
         <!-- Bootstrap JS -->
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
@@ -65,7 +65,10 @@
 
         <section>
           <form>
-            <div class="container-fluid caja_register al_center">
+            <div class="container-fluid caja al_center">
+              
+            <div class="container-fluid caja_register">
+
               <div class="row">
                 <div class="col  title">
                   <strong>Register</strong>
@@ -73,52 +76,38 @@
               </div>
               <div class="row">
                 <div class="col-sm">
-                  <input type="text" id="Nombre" class="form-control" aria-describedby="tagNombre">
-                  <div id="tagNombre" class="form-text">
-                    <strong>Nombre</strong>
-                  </div>
+                  <label for="Nombre" class="form-label"><strong>Nombre</strong></label>
+                  <input type="text" id="Nombre" class="form-control" aria-describedby="tagUser" placeholder="Obi-Wan">
                 </div>
                 <div class="col-sm">
-                  <input type="text" id="Apellido" class="form-control" aria-describedby="tagApellido">
-                  <div id="tagApellido" class="form-text">
-                    <strong>Apellido</strong>
-                  </div>
+                  <label for="Apellido" class="form-label"><strong>Apellido</strong></label>
+                  <input type="text" id="Apellido" class="form-control" aria-describedby="tagPassword" placeholder="Kenobi">
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm">
-                  <input type="text" id="Usuario" class="form-control" aria-describedby="tagUser">
-                  <div id="tagUser" class="form-text">
-                    <strong>Usuario</strong>
-                  </div>
+                  <label for="Usuario" class="form-label"><strong>Usuario</strong></label>
+                  <input type="text" id="Usuario" class="form-control" aria-describedby="tagUser" placeholder="Maestro_Jedi_Fachero44">
                 </div>
                 <div class="col-sm">
-                  <input type="password" id="Contraseña" class="form-control" aria-describedby="tagPassword">
-                  <div id="tagPassword" class="form-text">
-                    <strong>Contraseña</strong>
-                  </div>
+                  <label for="password" class="form-label"><strong>Contraseña</strong></label>
+                  <input type="password" id="Contraseña" class="form-control" aria-describedby="tagPassword" placeholder="Hello_There">
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm">
-                  <input type="text" id="DNI" class="form-control" aria-describedby="tagDNI">
-                  <div id="tagDNI" class="form-text">
-                    <strong>DNI</strong>
-                  </div>
+                  <label for="DNI" class="form-label"><strong>DNI</strong></label>
+                  <input type="text" id="DNI" class="form-control" aria-describedby="tagDNI" placeholder="66">
                 </div>
                 <div class="col-sm">
-                  <input type="text" id="Teléfono" class="form-control" aria-describedby="tagTel">
-                  <div id="tagTel" class="form-text">
-                    <strong>Telefono</strong>
-                  </div>
+                  <label for="Telefono" class="form-label"><strong>Teléfono</strong></label>
+                  <input type="text" id="Telefono" class="form-control" aria-describedby="tagTel" placeholder="1234567890 ">
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm">
-                  <input type="email" id="Correo" class="form-control" aria-describedby="tagMail">
-                  <div id="tagMail" class="form-text">
-                    <strong>Correo Electrónico</strong>
-                </div>
+                  <label for="Correo" class="form-label"><strong>Correo electrónico</strong></label>
+                  <input type="email" id="Correo" class="form-control" aria-describedby="tagMail" placeholder="HighGroundHaver@Mustafar.com">
               </div>
               <div class="row">
                 <div class="col-sm">
@@ -132,6 +121,9 @@
                   <button type="submit" class="btn btn-primary">Registrarse</button>
                 </div>
               </div>
+
+            </div>
+
             </div>
           </form>
         </section>

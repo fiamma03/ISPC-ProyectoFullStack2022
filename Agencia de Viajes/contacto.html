@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="fondo">
 
         <!-- Bootstrap JS -->
         <script src="bootstrap/js/bootstrap.bundle.js"></script>
@@ -63,7 +63,37 @@
 
         <!---Contenido de la pagina--->
 
+        <section>
+          <form>
+            <div class="container-fluid caja al_center">
+              <div class="container-fluid caja_contenido al_center">
+                <strong class="title">Consulta</strong>
+                <div class="row">
+                  <div class="col-auto">
+                    <label for="Asunto" class="form-label"><strong>Asunto</strong></label>
+                    <input type="text" id="Asunto" class="form-control" aria-describedby="tagUser">
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
 
+                    <label for="Mensaje" class="form-label"><strong>Mensaje</strong></label>
+                    <textarea id="Mensaje" class="form-control" rows="10"></textarea>
+                    
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-primary" type="submit" style="margin: 10px">Enviar</button>
+                    
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </form>
+        </section>
 
 
 

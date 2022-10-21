@@ -3,6 +3,7 @@ body{
 
 header{
     font-size: 30;
+    height: 135px;
     display: flex; 
     justify-content:center; 
     align-items: center; 
@@ -35,29 +36,43 @@ footer{
 
 
  .caja_login{
-    margin: 40px;
-    color: lightgrey;
-    max-width: 400px;
-    min-height: 320px;
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: rgb(19, 19, 71);
- }
+  margin: 10%;
+  color: black;
+  max-width: 40%;
+  border: 1px dashed black;
+  border-radius: 15px;
+  background-color: rgba(73, 147, 190, 0.5);
+}
 
  .caja_register{
-    margin: 40px;
-    color: lightgrey;
-    max-width: 600px;
-    min-height: 500 px;
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: rgb(19, 19, 71);
- }
+  margin: 10%;
+  color: black;
+  max-width: 80%;
+  border: 1px dashed black;
+  border-radius: 15px;
+  background-color: rgba(73, 147, 190, 0.5);
+}
+
+.caja_reseña{
+  margin: 10%;
+  color: black;
+  max-width: 80%;
+  border: 1px dashed black;
+  border-radius: 15px;
+  background-color: rgba(73, 147, 190, 0.5);
+}
 
  .title{
     font-size: xx-large;
  }
 
+ .subtitle1{
+  font-size: small;
+}
+
+ .al_start{
+   text-align: start;
+}
  .al_center{
     text-align: center;
  }
@@ -65,3 +80,141 @@ footer{
  .al_end{
     text-align: end;
  }
+
+ .caja_inicio_fotos{
+   margin: 20px;
+   color: black;
+   max-width: 600px;
+   min-height: 120px;
+   border: 1px dashed black;
+   border-radius: 15px;
+   background-color: rgba(73, 147, 190, 0.5);
+ }
+
+ .caja{
+   margin-top: 5px;
+   margin-bottom: 30px;
+   max-width: 80%;
+ }
+
+ .caja_contenido{
+   margin: 10%;
+   color: black;
+   max-width: 100%;
+   border: 1px dashed black;
+   border-radius: 15px;
+   background-color: rgba(73, 147, 190, 0.5);
+ }
+
+ .caja_contenido_calificacion{
+   margin: 15px;
+   color: black;
+   max-width: 150px;
+   border: 1px dotted black;
+   border-radius: 10px;
+   background-color: rgba(99, 89, 33, 0.8);
+ }
+
+ .caja_contenido_descripcion{
+   margin: 15px;
+   color: black;
+   border: 1px dotted black;
+   border-radius: 10px;
+   background-color: rgba(51, 85, 28, 0.8);
+ }
+
+.caja_contenido_precio{
+   margin: 15px;
+   color: black;
+   border: 1px dotted black;
+   border-radius: 10px;
+   background-color: rgba(88, 150, 48, 0.8);
+}
+
+.caja_contenido_fotos{
+   margin: 15px;
+   color: black;
+   border: 1px dotted black;
+   border-radius: 10px;
+   background-color: rgba(88, 150, 48, 0.8);
+}
+
+.caja_contenido_reseñas{
+   margin: 15px;
+   color: black;
+   border: 1px dotted black;
+   border-radius: 10px;
+   background-color: rgba(53, 87, 31, 0.8);
+}
+
+ .img_format{
+   size: 100%;
+   margin: 10px;
+   border: 1px dashed black;
+   border-radius: 15px;
+ }
+ 
+ .img_format_redes{
+   margin: 10px;
+   color: black;
+ }
+
+ .fondo{
+   background-image: url("img/fondo_inicio.jpg");
+   background-repeat: repeat-y;
+   background-attachment: scroll;
+   background-size: 100%;
+ }
+
+ .header_tabla{
+   border-color: rgba(10, 71, 10, 0.9);
+   border-style: solid;
+   border-width: 3px 3px 1.5px 3px;
+ }
+ 
+ .body_tabla1{
+   border-color: rgba(10, 71, 10, 0.9);
+   border-style: solid; 
+   border-width: 1.5px 1.5px 1.5px 3px
+ }
+
+ .body_tabla2{
+   border-color: rgba(10, 71, 10, 0.9);
+   border-bottom-style: solid;
+   border-width: 1px;
+ }
+
+ .body_tabla3{
+   border-color: rgba(10, 71, 10, 0.9);
+   border-style: solid;
+   border-width: 1.5px 3px 1.5px 1.5px;
+ }
+ .boton_100{
+   margin: 5px;
+   width: 100%;
+ }
+
+ .search{
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    
+  }
+
+  .search .fa-search{
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+   }
+
+  .search button{
+    
+    position:absolute;
+    top: 4px;
+    right: 4px;
+    height: 80%;
+    background: blue;
+    vertical-align: middle;
+
+   }
